@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color : rgb(37, 150, 150);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+
+    padding: 15px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+main{
+    padding:20px;
+}
+
+form {
+    background: var(--main-color);
+    margin: 20px auto;
+    max-width: 960px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+form h2, form div {
+    margin: 15px 0;
+}
+
+form div:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form input, form textarea {
+    font-size: 1.2rem;
+    padding: 8px;
+    width: 100%;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 8px;
+}
+
+form input:focus, form textarea:focus {
+    outline: 3px solid white;
+}
+
+form button {
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 2px solid black;
+}
+
+form button:hover {
+    background: grey;
+    color: snow;
+    cursor: pointer;
+}
+
+.list_messages {
+    margin: 20px auto;
+    max-width: 960px;
+}
+
+::placeholder {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.erreur {
+    background: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+.infos {
+    background: cyan;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+.message {
+    background:rgb(37, 150, 150);
+    margin: 20px auto;
+    max-width: 960px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.message p {
+    padding: 15px 0;
+}
+
+.align-end {
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+    padding:10px 0;  
+    margin-top:10px;  
+}
